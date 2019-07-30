@@ -1,0 +1,37 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+notification_config: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  matrix: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    create: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      criteria: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        owned_by_me: true
+        owned_by_nobody: true
+        'no': false
+      channel: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        email: true
+        online: true
+    update: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      criteria: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        owned_by_me: true
+        owned_by_nobody: true
+        'no': false
+      channel: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        email: true
+        online: true
+    reminder_reached: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      criteria: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        owned_by_me: true
+        owned_by_nobody: false
+        'no': false
+      channel: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        email: true
+        online: true
+    escalation: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+      criteria: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        owned_by_me: true
+        owned_by_nobody: false
+        'no': false
+      channel: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+        email: true
+        online: true
+
+intro: true
